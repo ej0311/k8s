@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: rental-app
-          image: gcr.io/cnaps-project//rental
+          image: gcr.io/cnaps-project/rental
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

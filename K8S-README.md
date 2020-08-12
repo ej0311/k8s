@@ -5,14 +5,14 @@
 You will need to push your image to a registry. If you have not done so, use the following commands to tag and push the images:
 
 ```
-$ docker image tag book gcr.io/cnaps-project//book
-$ docker push gcr.io/cnaps-project//book
-$ docker image tag bookcatalog gcr.io/cnaps-project//bookcatalog
-$ docker push gcr.io/cnaps-project//bookcatalog
-$ docker image tag gateway gcr.io/cnaps-project//gateway
-$ docker push gcr.io/cnaps-project//gateway
-$ docker image tag rental gcr.io/cnaps-project//rental
-$ docker push gcr.io/cnaps-project//rental
+$ docker image tag book gcr.io/cnaps-project/book
+$ docker push gcr.io/cnaps-project/book
+$ docker image tag bookcatalog gcr.io/cnaps-project/bookcatalog
+$ docker push gcr.io/cnaps-project/bookcatalog
+$ docker image tag gateway gcr.io/cnaps-project/gateway
+$ docker push gcr.io/cnaps-project/gateway
+$ docker image tag rental gcr.io/cnaps-project/rental
+$ docker push gcr.io/cnaps-project/rental
 ```
 
 ## Deployment

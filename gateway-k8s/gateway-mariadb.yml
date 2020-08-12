@@ -7,7 +7,7 @@ metadata:
     app: gateway-mariadb
 type: Opaque
 data:
-  mariadb-root-password: OWI3NTI2YzY1YjJhZGExMTkzZDZjZmFlOWQxYTliMDIxYTQwMmYyYjE0YjFkM2IyNmZjZjVmZWVlN2Yw
+  mariadb-root-password: ZjU4YmFlYWY1ZDg5NjNiMjkxYmM3OTg2OTVmOGJkMWJkZmE4ZjRiZjY0NWE2NGE3Mzc3NjA1ZmY1ZjQ5
 ---
 apiVersion: apps/v1
 kind: Deployment

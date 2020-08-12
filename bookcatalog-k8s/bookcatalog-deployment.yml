@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: bookcatalog-app
-          image: gcr.io/cnaps-project//bookcatalog
+          image: gcr.io/cnaps-project/bookcatalog
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
